@@ -1,9 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : 3/07/2024, 10:25:56
-    Author     : informatica
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -49,24 +43,24 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active" data-bs-interval="10000">
-            <img src="./assets/image/wow.jpg" class="d-block w-100" alt="...">
+            <img src="./assets/image/Kinalito.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5 class="text-dark bg-white">Fundacion Kinal</h5>
+              <p class="text-dark bg-white">El Trabajo Bien hecho</p>
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="./assets/image/c0eaa136768d4c61cd63ab3761aed00d.avif" class="d-block w-100" alt="...">
+            <img src="./assets/image/Kinal.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5 class="text-dark bg-white">Carreras Tecnicas</h5>
+              <p class="text-dark bg-white">Con la mejor preparacion</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="./assets/image/Kinalito.png" class="d-block w-100" alt="...">
+            <img src="./assets/image/logo.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Fundacion Kinal </h5>
-              <p>El trabajo Bien Hecho.</p>
+              <h5 class="text-dark bg-white">Fundacion Kinal </h5>
+              <p class="text-dark bg-white">Exelentes instalaciones</p>
             </div>
           </div>
         </div>
@@ -82,4 +76,17 @@
         </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>        
     </body>
+    <footer class="bg-dark text-white text-center py-3 container-fluid">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Fundacion Kinal. Todos los derechos reservados.</p>
+            <small>Desarrollador ecano</small>
+            <ul class="list-inline mt-2">
+               <li class="list-inline-item"><a href="#" class="text-white">infoets@kinal.org.gt</a></li>
+               <li class="list-inline-item"><a href="#" class="text-white">https://www.facebook.com/kinal.gt</a></li>
+            </ul>
+        </div>
+        <address>
+            6 avenida 13-54 zona 7, Colonia Landívar, 01007 Ciudad de Guatemala, Guatemala, C.A.
+        </address>
+    </footer>
 </html>
