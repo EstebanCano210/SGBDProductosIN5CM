@@ -9,9 +9,8 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
-@WebServlet("/producto-servlet/")
+@WebServlet("/producto-servlet")
 @MultipartConfig
 public class ProductoServlet extends HttpServlet{
 
@@ -35,5 +34,7 @@ public class ProductoServlet extends HttpServlet{
         req.setAttribute("datosProducto", datosProducto);
         getServletContext().getRequestDispatcher("/formulario-productos/formulario-productos.jsp").forward(req, resp);
     }   
+    
+    
 }
 

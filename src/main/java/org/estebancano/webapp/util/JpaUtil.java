@@ -17,14 +17,14 @@ public class JpaUtil {
     
     public static EntityManagerFactory buildEntityManagerFactory(){
         try{
-            return Persistence.createEntityManagerFactory("SGBDProductosIN5CM");
+            return Persistence.createEntityManagerFactory("SGBDproductos");
         }catch (Exception e){
             e.printStackTrace();
             throw new ExceptionInInitializerError(e);
         }
     }
     
-    public static EntityManager getEntityManagerFactory(){
+    public static EntityManager getEntityManager(){
         return emf.createEntityManager();
     }
     

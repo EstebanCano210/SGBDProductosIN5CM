@@ -1,1 +1,5 @@
+org\estebancano\webapp\service\IProductoService.class
 org\estebancano\webapp\servlet\ProductoServlet.class
+org\estebancano\webapp\model\Producto.class
+org\estebancano\webapp\service\ProductoService.class
+org\estebancano\webapp\util\JpaUtil.class

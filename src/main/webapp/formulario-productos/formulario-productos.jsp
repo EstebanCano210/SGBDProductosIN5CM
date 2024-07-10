@@ -54,7 +54,7 @@
             </ul>
         </div>
     <div>
-        <form action="/SGBDProductosIN5CM/producto-servlet/" method="post" enctype="multipart/form-data">
+        <form action="/SGBDProductosIN5CM/producto-servlet" method="post" enctype="multipart/form-data">
             <div class="container mt-4">
                 <div class="form-floating mb-4">
                    <input  type="text" class="form-control" id="nombreProducto" name="nombreProducto" placeholder="">
